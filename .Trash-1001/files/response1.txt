@@ -1,0 +1,663 @@
+{
+    "username": "fdcuser@fosfor.com",
+    "email": "fdcuser@fosfor.com",
+    "firstName": "fdc",
+    "lastName": "user",
+    "roleDetails": [
+        {
+            "name": "MOSAIC_ETL_DEVELOPER",
+            "description": "This role will provide all access to mosaic decision features.",
+            "actions": {
+                "PROJECT": [
+                    "view",
+                    "add",
+                    "modify",
+                    "delete",
+                    "grant",
+                    "revoke"
+                ],
+                "DAG-BACKEND_ACL": [
+                    "view",
+                    "Modify",
+                    "Execute"
+                ],
+                "/notebooks/api": [
+                    "view",
+                    "modify"
+                ],
+                "scheduler_acl": [
+                    "VIEW",
+                    "DELETE",
+                    "MODIFY",
+                    "RUN",
+                    "CREATE",
+                    "PAUSE",
+                    "RESUME",
+                    "KILL",
+                    "RESTART"
+                ],
+                "MONITOR": [
+                    "view",
+                    "kill",
+                    "pause",
+                    "resume",
+                    "restart"
+                ],
+                "mosaic-console-backend_acl": [
+                    "view",
+                    "add",
+                    "modify"
+                ],
+                "DAG": [
+                    "view",
+                    "modify",
+                    "add",
+                    "delete",
+                    "execute"
+                ],
+                "monitor_acl": [
+                    "VIEW",
+                    "MODIFY",
+                    "RUN",
+                    "DELETE",
+                    "KILL"
+                ],
+                "USERMGM_ACL": [
+                    "view"
+                ],
+                "/scheduler/api": [
+                    "view",
+                    "modify"
+                ],
+                "Catalog_Manager": [
+                    "publish",
+                    "users",
+                    "glossary",
+                    "monitor",
+                    "data-api",
+                    "scheduler",
+                    "runconfig",
+                    "expressions",
+                    "global"
+                ],
+                "DISCOVER_API_ACL": [
+                    "add",
+                    "view",
+                    "modify",
+                    "delete",
+                    "grant",
+                    "revoke"
+                ],
+                "SCHEDULER": [
+                    "view",
+                    "execute",
+                    "modify",
+                    "add",
+                    "delete"
+                ],
+                "Mosaic_Catalog": [
+                    "discover",
+                    "library",
+                    "dashboard",
+                    "consume",
+                    "approvals"
+                ],
+                "WORKFLOW": [
+                    "view",
+                    "modify",
+                    "add",
+                    "delete",
+                    "execute",
+                    "grant",
+                    "revoke"
+                ]
+            },
+            "roleMapping": null
+        },
+        {
+            "name": "admin",
+            "description": null,
+            "actions": {},
+            "roleMapping": null
+        },
+        {
+            "name": "MOSAIC_ADMINISTRATOR",
+            "description": "Mosaic admin having all access",
+            "actions": {
+                "PROJECT": [
+                    "view",
+                    "add",
+                    "modify",
+                    "delete",
+                    "grant",
+                    "revoke"
+                ],
+                "DAG-BACKEND_ACL": [
+                    "view",
+                    "Modify",
+                    "Execute"
+                ],
+                "/notebooks/api": [
+                    "view",
+                    "modify"
+                ],
+                "scheduler_acl": [
+                    "VIEW",
+                    "DELETE",
+                    "MODIFY",
+                    "RUN",
+                    "CREATE",
+                    "PAUSE",
+                    "RESUME",
+                    "KILL",
+                    "RESTART"
+                ],
+                "MONITOR": [
+                    "view",
+                    "kill",
+                    "pause",
+                    "resume",
+                    "restart"
+                ],
+                "mosaic-console-backend_acl": [
+                    "view",
+                    "add",
+                    "modify"
+                ],
+                "DAG": [
+                    "view",
+                    "modify",
+                    "add",
+                    "delete",
+                    "execute"
+                ],
+                "monitor_acl": [
+                    "VIEW",
+                    "MODIFY",
+                    "RUN",
+                    "DELETE",
+                    "KILL"
+                ],
+                "USERMGM_ACL": [
+                    "view",
+                    "modify",
+                    "sync_users",
+                    "remove_users"
+                ],
+                "/scheduler/api": [
+                    "view",
+                    "modify"
+                ],
+                "Catalog_Manager": [
+                    "publish",
+                    "users",
+                    "glossary",
+                    "monitor",
+                    "data-api",
+                    "scheduler",
+                    "runconfig",
+                    "audit",
+                    "expressions",
+                    "global",
+                    "licensing"
+                ],
+                "DISCOVER_API_ACL": [
+                    "add",
+                    "view",
+                    "modify",
+                    "delete",
+                    "grant",
+                    "revoke"
+                ],
+                "SCHEDULER": [
+                    "view",
+                    "execute",
+                    "modify",
+                    "add",
+                    "delete"
+                ],
+                "Mosaic_Catalog": [
+                    "discover",
+                    "library",
+                    "dashboard",
+                    "consume",
+                    "approvals"
+                ],
+                "WORKFLOW": [
+                    "view",
+                    "modify",
+                    "add",
+                    "delete",
+                    "execute",
+                    "grant",
+                    "revoke"
+                ]
+            },
+            "roleMapping": null
+        },
+        {
+            "name": "uma_authorization",
+            "description": "${role_uma_authorization}",
+            "actions": {},
+            "roleMapping": null
+        },
+        {
+            "name": "MLOPS",
+            "description": null,
+            "actions": {},
+            "roleMapping": null
+        },
+        {
+            "name": "default-roles-default-realm",
+            "description": "${role_default-roles}",
+            "actions": {},
+            "roleMapping": null
+        },
+        {
+            "name": "offline_access",
+            "description": "${role_offline-access}",
+            "actions": {},
+            "roleMapping": null
+        },
+        {
+            "name": "refract-admin",
+            "description": "refract-admin",
+            "actions": {
+                "USERMGM_ACL": [
+                    "View",
+                    "Modify",
+                    "Sync_users",
+                    "Remove_users"
+                ],
+                "Mosaic_Catalog": [
+                    "discover",
+                    "library",
+                    "consume",
+                    "dashboard"
+                ],
+                "Catalog_Manager": [
+                    "home",
+                    "publish",
+                    "users",
+                    "glossary",
+                    "configuration",
+                    "business",
+                    "governance",
+                    "data-api",
+                    "editor",
+                    "monitor",
+                    "relationship",
+                    "scheduler",
+                    "runconfig",
+                    "audit",
+                    "expressions",
+                    "global",
+                    "licensing"
+                ],
+                "DISCOVER_API_ACL": [
+                    "View",
+                    "Modify"
+                ]
+            },
+            "roleMapping": null
+        },
+        {
+            "name": "refract-developer",
+            "description": "Developer role",
+            "actions": {
+                "PROJECT": [
+                    "view",
+                    "add",
+                    "modify",
+                    "grant",
+                    "revoke",
+                    "delete",
+                    "view",
+                    "add",
+                    "modify",
+                    "grant",
+                    "revoke",
+                    "delete",
+                    "view",
+                    "add",
+                    "modify",
+                    "grant",
+                    "revoke",
+                    "delete"
+                ],
+                "/auto-ml/api": [
+                    "view",
+                    "modify",
+                    "trail",
+                    "view",
+                    "modify",
+                    "trail",
+                    "view",
+                    "modify",
+                    "trail"
+                ],
+                "/notebooks/api": [
+                    "view",
+                    "modify",
+                    "trail",
+                    "view",
+                    "modify",
+                    "trail",
+                    "view",
+                    "modify",
+                    "trail"
+                ],
+                "scheduler_acl": [
+                    "VIEW",
+                    "DELETE",
+                    "CREATE",
+                    "MODIFY",
+                    "RUN",
+                    "KILL",
+                    "PAUSE",
+                    "RESUME",
+                    "RESTART",
+                    "VIEW",
+                    "DELETE",
+                    "CREATE",
+                    "MODIFY",
+                    "RUN",
+                    "KILL",
+                    "PAUSE",
+                    "RESUME",
+                    "RESTART",
+                    "VIEW",
+                    "DELETE",
+                    "CREATE",
+                    "MODIFY",
+                    "RUN",
+                    "KILL",
+                    "PAUSE",
+                    "RESUME",
+                    "RESTART"
+                ],
+                "MONITOR": [
+                    "view",
+                    "pause",
+                    "kill",
+                    "resume",
+                    "restart",
+                    "view",
+                    "pause",
+                    "kill",
+                    "resume",
+                    "restart",
+                    "view",
+                    "pause",
+                    "kill",
+                    "resume",
+                    "restart"
+                ],
+                "mashup": [
+                    "view",
+                    "edit",
+                    "new",
+                    "delete",
+                    "run",
+                    "share"
+                ],
+                "MOSAIC-CONSOLE-BACKEND_ACL": [
+                    "VIEW",
+                    "ADD",
+                    "MODIFY",
+                    "VIEW",
+                    "ADD",
+                    "MODIFY",
+                    "VIEW",
+                    "ADD",
+                    "MODIFY"
+                ],
+                "monitor_acl": [
+                    "VIEW",
+                    "MODIFY",
+                    "RUN",
+                    "DELETE",
+                    "KILL",
+                    "VIEW",
+                    "MODIFY",
+                    "RUN",
+                    "DELETE",
+                    "KILL",
+                    "VIEW",
+                    "MODIFY",
+                    "RUN",
+                    "DELETE",
+                    "KILL"
+                ],
+                "/registry/api": [
+                    "view",
+                    "modify",
+                    "trail",
+                    "view",
+                    "modify",
+                    "trail",
+                    "view",
+                    "modify",
+                    "trail"
+                ],
+                "Catalog_Manager": [
+                    "publish",
+                    "publish"
+                ],
+                "DISCOVER_API_ACL": [
+                    "view",
+                    "add",
+                    "delete",
+                    "view",
+                    "add",
+                    "delete",
+                    "view",
+                    "add",
+                    "delete"
+                ],
+                "SCHEDULER": [
+                    "view",
+                    "modify",
+                    "add",
+                    "delete",
+                    "execute",
+                    "grant",
+                    "revoke",
+                    "view",
+                    "modify",
+                    "add",
+                    "delete",
+                    "execute",
+                    "grant",
+                    "revoke",
+                    "view",
+                    "modify",
+                    "add",
+                    "delete",
+                    "execute",
+                    "grant",
+                    "revoke"
+                ]
+            },
+            "roleMapping": null
+        },
+        {
+            "name": "long_lived_token",
+            "description": null,
+            "actions": {},
+            "roleMapping": null
+        }
+    ],
+    "onlineSessions": null,
+    "groups": [
+        "Admin",
+        "Designer",
+        "Analyst"
+    ],
+    "subGroups": [],
+    "tenantId": "bdac872a-675d-47a2-b532-66bf8eea3fa9",
+    "realmName": "default-realm",
+    "tenantName": null,
+    "subscriberId": null,
+    "id": "a5d7e88f-6344-47c5-b6f3-412f1be707a6",
+    "realmId": "99db8ad5-b045-43ef-acd0-89e0faaae499",
+    "userTourDetails": {
+        "status": "IN_PROGRESS",
+        "artifactValue": {
+            "tour-nav-tab-insight": true,
+            "tour-home-button-create-project": true,
+            "tour-nav-button-experiment": true,
+            "tour-nav-button-storyboard": true,
+            "tour-header-popup-take-a-tour": true,
+            "tour-nav-button-insight-job": true,
+            "tour-nav-button-nudges": true,
+            "tour-nav-tab-decision": true,
+            "tour-header-popup-select-roles": true,
+            "tour-nav-button-data-pipeline": true,
+            "tour-nav-button-validation": true,
+            "tour-header-button-fosfor-ai": true,
+            "tour-input-ask-bar": true,
+            "tour-nav-button-signals": true,
+            "tour-nav-button-ml-model": true,
+            "tour-nav-button-support": true,
+            "tour-nav-button-user-management": true,
+            "tour-nav-button-dataset": true,
+            "tour-home-tab-popular": true,
+            "banner": true,
+            "tour-nav-button-data-job-monitor": true,
+            "tour-nav-button-help": true,
+            "tour-nav-button-solution": true,
+            "tour-nav-button-modeling-studio": true,
+            "tour-nav-tab-data": true,
+            "tour-nav-button-ml-model-monitor": true,
+            "tour-nav-button-notebook": true,
+            "tour-home-section-watchlist": true,
+            "tour-nav-button-workflow": true
+        }
+    },
+    "externalApplicationKeys": {
+        "postHogKey": "qierkjy+VvTH2QkAjoGZI966CMx6NsuYaWkhIM2eMsTbYXVThiJkTLQyZVEPZhml",
+        "msClarityKey": "PjLNcB/YGoEWS38NxBoTFQ==",
+        "strapi_endpoint": "https://strapi-jgfpnr2esa-uc.a.run.app/",
+        "strapi_key": "3GcE+N8bUhsTOySomzqBg8+dbABH4M6qaaJIEo54HQuJmgI5phYt4bAouQzeE0NNQRY99aOH5Y1N6KQf0zuizXC858xmae6Hh2vaW24bAR057sG9deqXUU51l5qs6LyTVx7JVjKS9U0pLLYSdEuct+JZCngM4b6FQJ+j6ruAMvhiOY7OsinfdFL/yBLUYOcdoprtZ6Yl0Bwtlhr8WCgm56chpDAEEWAO/mUZmDy3jEZnTN/WMrseavAD00c/FaKa32P8jb7COwgSILN9hNjwNAa4s1rt6TYcwhuixRDD3A9TW/dJjKA1kxxq7LQmeL2wDMP/v1cE0YcRzd/ZKFFoBlBW6yPdbPTKMAgk9BdRnEA="
+    },
+    "attributes": {
+        "data_upload": [
+            "false"
+        ],
+        "calendar_sync_tour": [
+            "true"
+        ],
+        "solutions": [
+            "{\"solution_name\":\"FDC_8382_1\",\"solution_id\":\"67079963267f47737e49cded\"}"
+        ],
+        "published": [
+            "true"
+        ],
+        "connected_insights_tour": [
+            "true"
+        ],
+        "userId": [
+            "a5d7e88f-6344-47c5-b6f3-412f1be707a6"
+        ],
+        "create_solution": [
+            "true"
+        ],
+        "mei": [
+            "true"
+        ],
+        "user_info": [
+            "{\"ai_assisted_ontology_tags_tour\":true,\"ai_conversation_tour\":true,\"calendar_sync_tour\":true,\"dynamic_nlg_info_enabled\":true,\"guided_ask\":true,\"story_summarization_tour\":true,\"connected_insights_tour\":true,\"question_suggestions\":true,\"filter\":{\"dataset\":[]},\"aqc_token_info_tour\":true,\"ask_leni_tour\":true,\"conversation_exit_prompt_opt_out\":true,\"home_tour\":true,\"dynamic_nlg_tour\":true}"
+        ],
+        "ask_leni_tour": [
+            "true"
+        ],
+        "user_info.guided_ask": [
+            "true"
+        ],
+        "setup_completed": [
+            "false"
+        ],
+        "home_tour": [
+            "true"
+        ],
+        "password_update": [
+            "false"
+        ],
+        "attributes": [
+            "{\"user_info\":[\"{\\\"guided_ask\\\":false}\"]}"
+        ],
+        "home_page_stats": [
+            "{\"data_upload\":true,\"setup_completed\":true,\"password_update\":true,\"published\":true,\"first_login\":false}"
+        ]
+    },
+    "groupIds": [
+        "fcfde046-b96c-46cf-af49-f610df8c57ad",
+        "31a3d0bf-0f6b-4183-b726-a6b61070fa3e",
+        "5653a49b-84d5-4fc2-8620-da490b744f3f"
+    ],
+    "subscriptionDetails": {
+        "license": {
+            "planId": "09362093-4ea2-49f8-91e2-2e871d915f50",
+            "planName": "Trial",
+            "amount": "550",
+            "description": "Professional",
+            "period": "Monthly",
+            "subscriptionType": "licenseing",
+            "isActive": true,
+            "showRenewedNotification": true,
+            "featureList": [
+                "Fosfor AI",
+                "Documentation",
+                "Pipelines"
+            ],
+            "createdAt": "2024-09-09T09:36:40.904+00:00",
+            "updatedAt": "2024-09-10T07:13:12.837+00:00",
+            "updatedBy": "bhupendra.10686385@ltimindtree.com",
+            "createdBy": "bhupendra.10686385@ltimindtree.com",
+            "maxLimitCounts": {
+                "maxDesigners": 500,
+                "maxProjects": 5000,
+                "maxAnalysts": 500,
+                "maxAdmins": 500
+            },
+            "activatedAt": "2024-10-03T10:31:51.058+00:00",
+            "subscriptionEndDate": "2024-12-30T00:00:00.000+00:00",
+            "nextInvoicedDate": "2024-12-30T00:00:00.000+00:00"
+        },
+        "support": {
+            "planId": "2a4be9c7-82ec-42cf-8f18-19b57b97890e",
+            "planName": "Trial",
+            "amount": "$100/month",
+            "description": "Test subscription plan",
+            "period": "Monthly",
+            "subscriptionType": "support",
+            "isActive": true,
+            "showRenewedNotification": true,
+            "featureList": [
+                "Documentation",
+                "testing"
+            ],
+            "createdAt": "2024-09-09T09:44:23.770+00:00",
+            "updatedAt": "2024-09-09T09:44:23.770+00:00",
+            "updatedBy": "bhupendra.10686385@ltimindtree.com",
+            "createdBy": "bhupendra.10686385@ltimindtree.com",
+            "activatedAt": "2024-10-03T10:31:51.058+00:00",
+            "subscriptionEndDate": "2024-12-30T00:00:00.000+00:00",
+            "nextInvoicedDate": "2024-12-30T00:00:00.000+00:00"
+        },
+        "activeAssetCount": {
+            "activeAdmins": 203,
+            "activeDesigners": 179,
+            "activeAnalysts": 165,
+            "activeProjects": 1927
+        },
+        "clientName": "default-realm",
+        "isActive": true,
+        "showRenewedNotification": null,
+        "activatedAt": null,
+        "subscriptionEndDate": null,
+        "nextInvoicedDate": null,
+        "subscriptionFeatureEnabled": true
+    }
+}
